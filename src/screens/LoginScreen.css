@@ -1,0 +1,45 @@
+.loginScreen {
+  position: relative;
+  height: 100vh;
+  background: url("https://thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.loginScreen__gradient {
+  z-index: 1;
+  height: 100%;
+  background: #00000066;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.loginScreen__logo {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  width: 150px;
+}
+.loginScreen__button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e50914;
+}
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+}

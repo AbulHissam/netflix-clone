@@ -1,4 +1,4 @@
-# live app:https://netflix-clone-8d59f.web.app/
+live app:https://objective-mccarthy-74a347.netlify.app/
 
 Add Trailer functionality
 
